@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(141, 237, 154);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 1vmax;
+    width: 98vw;
+    height: 97vh;
+    color: black;
+    position: relative;
+}
+
+.widget-field {
+    background-color: chocolate;
+    width: 40vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border: 3px dotted grey;
+    padding-bottom: 2vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.widget-button {
+    margin-left: 3vw;
+    margin-top: 2vh;
+
+    background-color: cornflowerblue;
+    color: midnightblue;
+    width: fit-content;
+    height: 5vh;
+    padding: 1vh;
+    font-size: 3vh;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+
+.widget-button:hover {
+    background-color: yellowgreen;
+    color: orangered;
+}
+
+.widget-text-field {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(141, 237, 154);
+    height: fit-content;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+
+.widget-text {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: wheat;
+    height: fit-content;
+    color: brown;
+    font-size: 2vh;
+}
+
+.widget-tail {
+    position: absolute;
+    z-index: 4;
+    width: fit-content;
+    color: brown;
+    font-size: 3vh;
+}
